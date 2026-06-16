@@ -1,45 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Link Page</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>My Links</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f1ff;
+      text-align: center;
+      padding: 40px 20px;
+    }
 
-  <script src="https://kit.fontawesome.com/4b9ba14b0f.js" crossorigin="anonymous"></script>
+    .profile {
+      max-width: 420px;
+      margin: auto;
+    }
+
+    img {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    h1 {
+      margin-bottom: 5px;
+    }
+
+    p {
+      color: #555;
+    }
+
+    a {
+      display: block;
+      background: #111;
+      color: white;
+      text-decoration: none;
+      padding: 15px;
+      margin: 12px 0;
+      border-radius: 12px;
+      font-weight: bold;
+    }
+
+    a:hover {
+      background: #333;
+    }
+  </style>
 </head>
 <body>
+  <div class="profile">
+    <img src="https://via.placeholder.com/150" alt="Profile photo">
 
-  <main class="container">
+    <h1>@yourname</h1>
+    <p>Creator | Designer | Entrepreneur</p>
 
-    <div class="logo-box">
-      LOGO
-    </div>
-
-    <h1>NAME</h1>
-
-    <div class="socials">
-      <a href="https://instagram.com" target="_blank">
-        <i class="fab fa-instagram"></i>
-      </a>
-
-      <a href="https://facebook.com" target="_blank">
-        <i class="fab fa-facebook"></i>
-      </a>
-
-      <a href="https://youtube.com" target="_blank">
-        <i class="fab fa-youtube"></i>
-      </a>
-    </div>
-
-    <div class="links">
-      <a href="#">LINK 1</a>
-      <a href="#">LINK 2</a>
-      <a href="#">LINK 3</a>
-      <a href="#">LINK 4</a>
-    </div>
-
-  </main>
-
+    <a href="https://instagram.com">Instagram</a>
+    <a href="https://youtube.com">YouTube</a>
+    <a href="https://yourwebsite.com">My Website</a>
+    <a href="mailto:you@email.com">Contact Me</a>
+  </div>
 </body>
 </html>
